@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs> 
+
+<AlienRace.BackstoryDef Abstract="True" Name="VulpesBackstoriesAdulthoodBase">
+	<spawnCategories>
+		<li>VulpesBackstoriesAdulthood</li>
+	</spawnCategories>
+	<slot>Adulthood</slot>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryDomesticScientist</defName>
+    <title>Domestic Scientist</title>
+    <titleShort>Scientist</titleShort>
+    <baseDescription>The owner of {PAWN_nameDef} was a highly educated person. He taught {PAWN_nameDef} various subjects in their spare time.</baseDescription>
+	<skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryDomesticChef</defName>
+    <title>Domestic Chef</title>
+    <titleShort>Chef</titleShort>
+    <baseDescription>{PAWN_nameDef} was a personal chef for {PAWN_objective} owner's family. {PAWN_pronoun} has mastered art the of cooking and is able to make perfect meals using the simplest ingredients.</baseDescription>
+	<skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryDomesticJade</defName>
+    <title>Domestic Jade</title>
+    <titleShort>Jade</titleShort>
+    <baseDescription>{PAWN_nameDef} was used by her owners mostly for sexual purposes.</baseDescription>
+	<maleCommonality>0</maleCommonality>
+    <femaleCommonality>100</femaleCommonality>
+	<skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryDomesticSinger</defName>
+    <title>Domestic Singer</title>
+    <titleShort>Singer</titleShort>
+    <baseDescription>{PAWN_nameDef} was a personal singer for {PAWN_objective} owner. Every evening {PAWN_nameDef} pleased {PAWN_objective} owner with charming songs.</baseDescription>
+	<skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Artistic</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryGlitterworldStar</defName>
+    <title>Glitterworld star</title>
+    <titleShort>Celebrity</titleShort>
+    <baseDescription>{PAWN_nameDef} was a popular celebrity at one of the glitterworlds. {PAWN_pronoun} has often visited various shows, holidays and photosessions.</baseDescription>
+	<skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Artistic</defName>
+        <amount>10</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryGlitterworldScientist</defName>
+    <title>Glitterworld Scientist</title>
+    <titleShort>Scientist</titleShort>
+    <baseDescription>{PAWN_nameDef} became a professional scientist despite {PAWN_objective} species being servitor. {PAWN_objective} vast knowledge combined with high intellect allowed {PAWN_objective} to develop almost anything from scratch.</baseDescription>
+	<skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryRebel</defName>
+    <title>Rebel</title>
+    <titleShort>Rebel</titleShort>
+    <baseDescription>{PAWN_nameDef} participated in revolts at a distant industrial world and managed to escape.</baseDescription>
+	<skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryGunMerchant</defName>
+    <title>Gun merchant</title>
+    <titleShort>Merchant</titleShort>
+    <baseDescription>{PAWN_nameDef} was a successful gun merchant in the past. {PAWN_pronoun} knows everything about big guns and shooting.</baseDescription>
+	<skillGains>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>7</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryDomesticBartender</defName>
+    <title>Domestic Bartender</title>
+    <titleShort>Bartender</titleShort>
+    <baseDescription>{PAWN_nameDef} was a domestic bartender in past. {PAWN_pronoun} knows a lot about drinks and what to do in cases of poisoning and overdose.</baseDescription>
+	<skillGains>
+	  <li>
+        <defName>Cooking</defName>
+        <amount>5</amount>
+      </li>
+	  <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryBestFriend</defName>
+    <title>Best Friend</title>
+    <titleShort>Social</titleShort>
+    <baseDescription>{PAWN_nameDef} was the best friend for {PAWN_objective} owner. {PAWN_pronoun} was the only thing that kept them happy.</baseDescription>
+	<skillGains>
+	  <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryBookWorm</defName>
+    <title>Book Worm</title>
+    <titleShort>Smarty</titleShort>
+    <baseDescription>{PAWN_nameDef}'s owner had a vast library with all kinds of books and digital archives. {PAWN_pronoun} had visited library and fulfiled her curiosity in secret each night...</baseDescription>
+	<skillGains>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+	  <li>
+        <defName>Artistic</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Cooking</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryDomesticGardener</defName>
+    <title>Domestic Gardener</title>
+    <titleShort>Gardener</titleShort>
+    <baseDescription>{PAWN_nameDef} was a decent gardener. {PAWN_pronoun} knows a lot about plants and gardering.</baseDescription>
+	<skillGains>
+	  <li>
+        <defName>Plants</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryRimworlder</defName>
+    <title>Rimworlder</title>
+    <titleShort>Vulpian</titleShort>
+    <baseDescription>{PAWN_nameDef} had spent an their on a rimworld. {PAWN_pronoun} learned skills that are necessary for survival in such a harsh place.</baseDescription>
+	<skillGains>
+	  <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesAdulthoodBase">
+    <defName>VulpesBackstoryApathetic</defName>
+    <title>Apathetic</title>
+    <titleShort>Vulpian</titleShort>
+    <baseDescription>{PAWN_nameDef} does not like to talk much. Sometimes {PAWN_pronoun} stays silent for weeks.  Nobody knows why. Yet {PAWN_pronoun} prefers to spend all their free time with animals.</baseDescription>
+	<skillGains>
+	  <li>
+        <defName>Animals</defName>
+        <amount>8</amount>
+      </li>
+    </skillGains>
+	<workDisables>
+        <li>Social</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+</Defs>

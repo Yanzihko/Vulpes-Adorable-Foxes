@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<HediffDef ParentName="AddedBodyPartBase">
+    <defName>SynthTail</defName>
+    <label>synthread tail</label>
+    <labelNoun>a synthread tail</labelNoun>
+    <description>An installed synthread tail. Very beauteful.</description>
+    <descriptionHyperlinks><ThingDef>SynthTail</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>SynthTail</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>SynthTail</defName>
+    <label>synthread tail</label>
+    <description>Artificial fluffy tail with bionic plasteel frame and synthetic fur. Indistinguishable from a real tail.</description>
+    <descriptionHyperlinks><RecipeDef>InstallSynthTail</RecipeDef></descriptionHyperlinks>
+    <costList>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+	  <Synthread>25</Synthread>
+    </costList>
+    <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+    <statBases>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallSynthTail</defName>
+    <label>install synthread tail</label>
+    <description>Install synthread tail.</description>
+    <descriptionHyperlinks>
+      <ThingDef>SynthTail</ThingDef>
+      <HediffDef>SynthTail</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing synthread tail.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SynthTail</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SynthTail</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Tail</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>SynthTail</addsHediff>
+  </RecipeDef>
+
+</Defs>

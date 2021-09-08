@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<AlienRace.RaceSettings>
+		<defName>VulpesSettings</defName>
+	
+		<pawnKindSettings>
+		
+			<!-- refugee -->
+			<alienrefugeekinds>
+				<li>
+					<kindDefs>
+						<li>VulpesSpaceRefugee</li>
+					</kindDefs>
+					<chance>4.0</chance>
+				</li>
+			</alienrefugeekinds>
+			
+			<!-- wanderer -->
+			<alienwandererkinds>
+			<li>
+				<pawnKindEntries>
+					<li>
+						<kindDefs>
+							<li>VulpesSpaceRefugee</li>
+						</kindDefs>
+						<chance>10.0</chance>
+					</li>
+				</pawnKindEntries>
+				
+				<factionDefs>
+					<li>PlayerVulpesTribal</li>
+					<li>PlayerVulpesTribalNoTech</li> 
+					<li>PlayerVulpesIndustrial</li> 
+					<li>PlayerVulpesIndustrialNoTech</li> 
+				</factionDefs>
+			</li>
+			</alienwandererkinds>
+			
+		</pawnKindSettings>
+		
+	</AlienRace.RaceSettings>
+</Defs>

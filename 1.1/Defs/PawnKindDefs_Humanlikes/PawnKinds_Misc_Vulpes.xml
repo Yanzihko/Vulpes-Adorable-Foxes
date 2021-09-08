@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <PawnKindDef Name="VulpesSpaceRefugeeBase" Abstract="True">
+    <race>Vulpes</race>
+	<backstoryFiltersOverride>
+        <li>
+            <categories>
+                <li>VulpesBackstoriesChildhood</li>
+				<li>VulpesBackstoriesAdulthood</li>
+            </categories>
+        </li>
+    </backstoryFiltersOverride>
+    <combatPower>30</combatPower>
+    <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>1~1</gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.08</techHediffsChance>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VulpesSpaceRefugeeBase">
+    <defName>VulpesSpaceRefugee</defName>
+    <label>Vulpian space refugee</label>
+    <apparelMoney>200~1000</apparelMoney>
+    <gearHealthRange>1~1</gearHealthRange>
+    <disallowedTraits>
+      <li>Nudist</li>
+    </disallowedTraits>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="VulpesSpaceRefugeeBase">
+    <defName>VulpesSlave</defName>
+    <label>Slave</label>
+    <apparelMoney>200~1000</apparelMoney>
+    <gearHealthRange>1~1</gearHealthRange>
+	<apparelRequired>
+			<li>Apparel_Parka</li>
+	</apparelRequired>
+    <disallowedTraits>
+      <li>Nudist</li>
+    </disallowedTraits>
+  </PawnKindDef>
+
+  <PawnKindDef>
+    <defName>VulpesAncientSoldier</defName>
+    <label>Vulpian ancient soldier</label>
+    <race>Vulpes</race>
+	<backstoryFiltersOverride>
+        <li>
+            <categories>
+                <li>VulpesBackstoriesChildhood</li>
+				<li>VulpesBackstoriesAdulthood</li>
+            </categories>
+        </li>
+    </backstoryFiltersOverride>
+    <combatPower>100</combatPower>
+    <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
+    <defaultFactionType>AncientsHostile</defaultFactionType>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <apparelMoney>0~3800</apparelMoney>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponMoney>300~900</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+	<apparelRequired>
+			<li>Apparel_BasicShirt</li>
+			<li>Apparel_PowerArmor</li>
+			<li>Apparel_Pants</li>
+	</apparelRequired>
+    <techHediffsMoney>2000~3000</techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+      <li>AdvancedWeapon</li>
+    </techHediffsTags>
+    <techHediffsChance>1</techHediffsChance>
+    <combatEnhancingDrugsChance>0.5</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+  </PawnKindDef>
+
+</Defs>

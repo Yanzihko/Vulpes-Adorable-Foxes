@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ScenarioDef>
+	<defName>VulpesScenario1</defName>
+	<label>Lucky Quartet</label>
+	<description>You managed to escape from slave trader ship during pirate attack. Being in panic you took some food, resources and 4 pistols with you. You spent your whole life serving humans. You were threaten like a toys, like a souless servitours. But now you got an opportunity to start a new life at this distant rimworld where no one will command and touch you. Or?...</description>
+	<scenario>
+		<summary>Four Vulpian colonists with very basic resources. You have zero technologies at start. Be careful with Vulpian pawns since they're very weak and fragile. Use their movement speed as an advantage. Medium Difficulty.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>PlayerVulpesIndustrialNoTech</factionDef>
+		</playerFaction>
+		<parts>
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnCount>4</pawnCount>
+			</li>
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<method>DropPods</method>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MealSurvivalPack</thingDef>
+				<count>40</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MedicineIndustrial</thingDef>
+				<count>10</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>10</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Gun_Autopistol</thingDef>
+				<count>4</count>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>Steel</thingDef>
+				<count>500</count>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>WoodLog</thingDef>
+				<count>200</count>
+			</li>
+			<li Class="ScenPart_ScatterThingsAnywhere">
+				<def>ScatterThingsAnywhere</def>
+				<thingDef>ShipChunk</thingDef>
+				<count>6</count>
+			</li>
+			<li Class="ScenPart_ScatterThingsAnywhere">
+				<def>ScatterThingsAnywhere</def>
+				<thingDef>Steel</thingDef>
+				<count>200</count>
+			</li>
+			<li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>Pirate attack, unbeliavable escape and wonderous distant world where you can start your new life. It's sounds like a plot of a movie that you watched with your owner back in childhood... You see a rain of burning slave ship chunks entering atmosphere at ultra-sonic speed. You feel sudden relief in your chest. You are free now...</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+		</parts>
+	</scenario>
+</ScenarioDef>
+
+</Defs>
