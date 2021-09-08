@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PlayerVulpesTribal.label>Vulpes</PlayerVulpesTribal.label>
+  <PlayerVulpesTribal.description>Vulpes</PlayerVulpesTribal.description>
+  <PlayerVulpesTribal.pawnSingular>Vulpes</PlayerVulpesTribal.pawnSingular>
+  <PlayerVulpesTribal.pawnsPlural>Vulpes</PlayerVulpesTribal.pawnsPlural>
+  <PlayerVulpesTribalNoTech.label>Vulpes</PlayerVulpesTribalNoTech.label>
+  <PlayerVulpesTribalNoTech.description>Vulpes</PlayerVulpesTribalNoTech.description>
+  <PlayerVulpesTribalNoTech.pawnSingular>Vulpes</PlayerVulpesTribalNoTech.pawnSingular>
+  <PlayerVulpesTribalNoTech.pawnsPlural>Vulpes</PlayerVulpesTribalNoTech.pawnsPlural>
+  <PlayerVulpesIndustrial.label>Поселение Vulpes</PlayerVulpesIndustrial.label>
+  <PlayerVulpesIndustrial.description>Поселение Vulpes</PlayerVulpesIndustrial.description>
+  <PlayerVulpesIndustrial.pawnSingular>Vulpes</PlayerVulpesIndustrial.pawnSingular>
+  <PlayerVulpesIndustrial.pawnsPlural>Vulpes</PlayerVulpesIndustrial.pawnsPlural>
+  <PlayerVulpesIndustrialNoTech.label>Поселение Vulpes (без технологий)</PlayerVulpesIndustrialNoTech.label>
+  <PlayerVulpesIndustrialNoTech.description>Поселение Vulpes</PlayerVulpesIndustrialNoTech.description>
+  <PlayerVulpesIndustrialNoTech.pawnSingular>Vulpes</PlayerVulpesIndustrialNoTech.pawnSingular>
+  <PlayerVulpesIndustrialNoTech.pawnsPlural>Vulpes</PlayerVulpesIndustrialNoTech.pawnsPlural>
+</LanguageData>

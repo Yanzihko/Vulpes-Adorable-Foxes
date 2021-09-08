@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<TraitDef>
+    <defName>Adorable</defName>
+    <commonality>0.001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Adorable</label>
+        <description>{PAWN_nameDef} is adorable being with smooth and charming voice, as expected from gene-engineered servitor. There is something mysterious about {PAWN_objective} that attracts everyone around. Even plants start to bloom around {PAWN_nameDef}...</description>
+        <socialFightChanceFactor>0.15</socialFightChanceFactor>
+        <statOffsets>
+			<TrainAnimalChance>0.25</TrainAnimalChance>
+			<TameAnimalChance>0.25</TameAnimalChance>
+			<PawnBeauty>2</PawnBeauty>
+			<TradePriceImprovement>0.5</TradePriceImprovement>
+			<SocialImpact>0.5</SocialImpact>
+        </statOffsets>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>5</value>
+			</li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+</TraitDef>
+</Defs>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<RulePackDef>
+        <defName>VulpesNameM</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[FirstM] '[SecondM]' [Ident]</li>
+            </rulesStrings>
+            <rulesRaw>
+                <li Class="Rule_File">
+                    <keyword>FirstM</keyword>
+                    <path>VulpesNames/VulpesMaleFirstName</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>SecondM</keyword>
+                    <path>VulpesNames/VulpesMaleMidName</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>Ident</keyword>
+                    <path>VulpesNames/VulpesSurName</path>
+                </li>
+            </rulesRaw>
+        </rulePack>
+    </RulePackDef>
+    
+        <RulePackDef>
+        <defName>VulpesNameF</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[FirstF] '[SecondF]' [Ident]</li>
+            </rulesStrings>
+            <rulesRaw>
+                <li Class="Rule_File">
+                    <keyword>FirstF</keyword>
+                    <path>VulpesNames/VulpesFemaleFirstName</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>SecondF</keyword>
+                    <path>VulpesNames/VulpesFemaleMidName</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>Ident</keyword>
+                    <path>VulpesNames/VulpesSurName</path>
+                </li>
+            </rulesRaw>
+        </rulePack>
+    </RulePackDef>
+</Defs>

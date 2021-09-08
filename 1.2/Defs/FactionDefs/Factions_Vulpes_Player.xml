@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<FactionDef Abstract="True" Name="VulpesFactionBase">
+    <settlementTexturePath>World/WorldObjects/VulpesBase</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0.95,0.64,0.38)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+	<!--TRIBAL FACTION-->
+  <FactionDef ParentName="VulpesFactionBase">
+    <defName>PlayerVulpesTribal</defName>
+    <label>Vulpian Tribe</label>
+    <description>Vulpian tribe</description>
+    <isPlayer>true</isPlayer>
+    <pawnSingular>Vulpian</pawnSingular>
+    <pawnsPlural>Vulpes</pawnsPlural>
+    <basicMemberKind>VulpesTribalPawn</basicMemberKind>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Vulpes_Faction</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/Vulpes_Base</settlementTexturePath>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>TribalStart</li>
+      <li>TribalStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <hairTags>
+      <li>Vulpes</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>DevilstrandCloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Tribal</li>
+    </recipePrerequisiteTags>
+    </FactionDef>
+	
+	<!--TRIBAL FACTION (NO TECH AT START)-->
+	<FactionDef ParentName="VulpesFactionBase">
+    <defName>PlayerVulpesTribalNoTech</defName>
+    <label>Vulpian Tribe (No tech)</label>
+    <description>Vulpian tribe</description>
+    <isPlayer>true</isPlayer>
+    <pawnSingular>Vulpian</pawnSingular>
+    <pawnsPlural>Vulpes</pawnsPlural>
+    <basicMemberKind>VulpesTribalPawn</basicMemberKind>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Vulpes_Faction</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/Vulpes_Base</settlementTexturePath>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>TribalStart</li>
+      <li>TribalStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <hairTags>
+      <li>Vulpes</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>DevilstrandCloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Tribal</li>
+    </recipePrerequisiteTags>
+    </FactionDef>
+	
+	<!--INDUSTRIAL FACTION-->
+	<FactionDef ParentName="VulpesFactionBase">
+    <defName>PlayerVulpesIndustrial</defName>
+    <label>Vulpian Colony</label>
+    <description>Vulpian Colony</description>
+    <isPlayer>true</isPlayer>
+    <pawnSingular>Vulpian</pawnSingular>
+    <pawnsPlural>Vulpes</pawnsPlural>
+    <basicMemberKind>VulpesIndustrialPawn</basicMemberKind>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Vulpes_Faction</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/Vulpes_Base</settlementTexturePath>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <hairTags>
+      <li>Vulpes</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+			<li>Synthread</li>
+			<li>Hyperweave</li>
+			<li>Plasteel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Industrial</li>
+    </recipePrerequisiteTags>
+    </FactionDef>
+	
+	<!--INDUSTRIAL FACTION (NO TECH AT START)-->
+	<FactionDef ParentName="VulpesFactionBase">
+    <defName>PlayerVulpesIndustrialNoTech</defName>
+    <label>Vulpian Colony (No tech)</label>
+    <description>Vulpian colony</description>
+    <isPlayer>true</isPlayer>
+    <pawnSingular>Vulpian</pawnSingular>
+    <pawnsPlural>Vulpes</pawnsPlural>
+    <basicMemberKind>VulpesIndustrialPawn</basicMemberKind>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Vulpes_Faction</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/Vulpes_Base</settlementTexturePath>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <hairTags>
+      <li>Vulpes</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+			<li>Synthread</li>
+			<li>Hyperweave</li>
+			<li>Plasteel</li>				
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Industrial</li>
+    </recipePrerequisiteTags>
+    </FactionDef>
+</Defs>

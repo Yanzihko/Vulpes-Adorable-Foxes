@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>No_Hair_Vulpes</defName>
+    <label>No Hair</label>
+    <texPath>Vulpes/Hair/No_hair</texPath>
+    <hairTags>
+			<li>Vulpes</li>
+		</hairTags>
+  </HairDef>
+</Defs>

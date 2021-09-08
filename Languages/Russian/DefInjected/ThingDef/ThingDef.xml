@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Vulpian_leather.label>Шкура Vulpes</Vulpian_leather.label>
+  <Vulpian_leather.description>Шкура Vulpes. Стоит бешенных денег из-за своей внеземной красоты и текстуры.</Vulpian_leather.description>
+  <Vulpes.label>Vulpes</Vulpes.label>
+  <Vulpes.description>Vulpes - раса милых генетически модифицированных лисичек. Чрезвычайно умны и смекалисты. Но крайне слабы и отвратительны в ближнем бою.</Vulpes.description>
+  <Vulpes.tools.teeth.label>Клыки</Vulpes.tools.teeth.label>
+  <Vulpes.tools.left_claws.label>Когти</Vulpes.tools.left_claws.label>
+  <Vulpes.tools.right_claws.label>Когти</Vulpes.tools.right_claws.label>
+  <SynthTail.label>Хвост из синткани</SynthTail.label>
+  <SynthTail.description>Искуственный пушистый хвост с пласталевой основой и шерстью из синткани. Неотличим от настоящего хвоста.</SynthTail.description>
+</LanguageData>

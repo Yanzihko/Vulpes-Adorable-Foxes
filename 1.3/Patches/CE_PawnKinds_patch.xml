@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Misc -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/PawnKindDef[
+				defName="VulpianSpaceRefugee" or
+				defName="VulpianSlave" or
+				defName="VulpianColonist" or
+				defName="VulpianTribesperson"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>
+							<min>1</min>
+							<max>2</max>
+						</primaryMagazineCount>
+						<sidearms>
+							<li>
+								<generateChance>0.1</generateChance>
+								<weaponTags>
+									<li>CE_Sidearm_Melee</li>
+								</weaponTags>
+							</li>
+						</sidearms>
+					</li>
+				</value>
+			</li>
+
+
+			<!-- Mercenaries -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/PawnKindDef[
+				defName="Vulpian_Grenadier_Destructive" or
+				defName="Vulpian_Grenadier_EMP" or
+				defName="Vulpian_Grenadier_Smoke" or
+				defName="Vulpian_Mercenary_Gunner" or
+				defName="Vulpian_Mercenary_Sniper" or
+				defName="Vulpian_Mercenary_Heavyr" or
+				defName="Vulpian_PirateBoss" or
+				defName="Vulpian_Mercenary_Elite"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>
+							<min>6</min>
+							<max>10</max>
+						</primaryMagazineCount>
+						<sidearms>
+							<li>
+								<generateChance>0.1</generateChance>
+								<weaponTags>
+									<li>CE_Sidearm_Melee</li>
+								</weaponTags>
+							</li>
+						</sidearms>
+					</li>
+				</value>
+			</li>
+			
+			<!-- Pirates -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/PawnKindDef[
+				defName="Vulpian_Drifter" or
+				defName="Vulpian_Scavenger" or
+				defName="Vulpian_Pirate"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>
+							<min>4</min>
+							<max>8</max>
+						</primaryMagazineCount>
+						<sidearms>
+							<li>
+								<generateChance>0.1</generateChance>
+								<weaponTags>
+									<li>CE_Sidearm_Melee</li>
+								</weaponTags>
+							</li>
+						</sidearms>
+					</li>
+				</value>
+			</li>
+
+			<!-- Outlander -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/PawnKindDef[
+				defName="Vulpian_Villager" or
+				defName="Vulpian_Town_Guard" or
+				defName="Vulpian_Town_Trader" or
+				defName="Vulpian_Town_Councilman"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>
+							<min>6</min>
+							<max>10</max>
+						</primaryMagazineCount>
+						<sidearms>
+							<li>
+								<generateChance>0.1</generateChance>
+								<weaponTags>
+									<li>CE_Sidearm_Melee</li>
+								</weaponTags>
+							</li>
+						</sidearms>
+					</li>
+				</value>
+			</li>
+
+
+			<!-- Tribals -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/PawnKindDef[
+				defName="Vulpian_Tribal_Archer" or
+				defName="Vulpian_Tribal_Hunter" or
+				defName="Vulpian_Tribal_HeavyArcher" or
+				defName="Vulpian_Tribal_ChiefRanged" or
+				defName="Vulpian_Tribal_Trader"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>
+							<min>12</min>
+							<max>24</max>
+						</primaryMagazineCount>
+						<sidearms>
+							<li>
+								<generateChance>0.1</generateChance>
+								<weaponTags>
+									<li>CE_Sidearm_Melee</li>
+								</weaponTags>
+							</li>
+						</sidearms>
+					</li>
+				</value>
+			</li>
+
+
+		</operations>
+		</match>
+	</Operation>
+</Patch>

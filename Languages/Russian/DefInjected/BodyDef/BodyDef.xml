@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Vulpes.label>Vulpes</Vulpes.label>
+  <Vulpes.corePart.parts.left_lung.customLabel>Левое легкое</Vulpes.corePart.parts.left_lung.customLabel>
+  <Vulpes.corePart.parts.right_lung.customLabel>Правое легкое</Vulpes.corePart.parts.right_lung.customLabel>
+  <Vulpes.corePart.parts.left_kidney.customLabel>Левая почка</Vulpes.corePart.parts.left_kidney.customLabel>
+  <Vulpes.corePart.parts.right_kidney.customLabel>Правая почка</Vulpes.corePart.parts.right_kidney.customLabel>
+  <Vulpes.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>Левый глаз</Vulpes.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <Vulpes.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>Правый глаз</Vulpes.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <Vulpes.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>Левое ухо</Vulpes.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <Vulpes.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>Правое ухо</Vulpes.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.customLabel>Левое плечо</Vulpes.corePart.parts.left_shoulder.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>Левая ключица</Vulpes.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.parts.left_arm.customLabel>Левая рука</Vulpes.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>Левое запястье</Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>Левая лучевая кость</Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>Левая рука</Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>Левый мизинец руки</Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>Левый безымянный палец руки</Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_ring_finger.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>Левый средний палец руки</Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>Левый указательный палец руки</Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>Левый большой палец руки</Vulpes.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.customLabel>Правое плечо</Vulpes.corePart.parts.right_shoulder.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>Правая ключица</Vulpes.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.parts.right_arm.customLabel>Правая рука</Vulpes.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>Правое запястье</Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>Правая лучевая кость</Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>Правая рука</Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>Правый мизинец руки</Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>Правый безымянный палец руки</Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_ring_finger.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>Правый средний палец руки</Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>Правый указательный палец руки</Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>Правый большой палец руки</Vulpes.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <Vulpes.corePart.parts.left_leg.customLabel>Левая нога</Vulpes.corePart.parts.left_leg.customLabel>
+  <Vulpes.corePart.parts.left_leg.parts.left_femur.customLabel>Левое бедро</Vulpes.corePart.parts.left_leg.parts.left_femur.customLabel>
+  <Vulpes.corePart.parts.left_leg.parts.left_tibia.customLabel>Левая большеберцовая кость</Vulpes.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  <Vulpes.corePart.parts.left_leg.parts.left_foot.customLabel>Левая нога</Vulpes.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <Vulpes.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>Левый мизинец палец ноги</Vulpes.corePart.parts.left_leg.parts.left_foot.parts.left_little_toe.customLabel>
+  <Vulpes.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>Левый безымянный палец ноги</Vulpes.corePart.parts.left_leg.parts.left_foot.parts.left_fourth_toe.customLabel>
+  <Vulpes.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>Левый средний палец ноги</Vulpes.corePart.parts.left_leg.parts.left_foot.parts.left_middle_toe.customLabel>
+  <Vulpes.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>Левый указательный палец ноги</Vulpes.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>
+  <Vulpes.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>Левый большой палец ноги</Vulpes.corePart.parts.left_leg.parts.left_foot.parts.left_big_toe.customLabel>
+  <Vulpes.corePart.parts.right_leg.customLabel>Правая нога</Vulpes.corePart.parts.right_leg.customLabel>
+  <Vulpes.corePart.parts.right_leg.parts.right_femur.customLabel>Правое бедро</Vulpes.corePart.parts.right_leg.parts.right_femur.customLabel>
+  <Vulpes.corePart.parts.right_leg.parts.right_tibia.customLabel>Правая большеберцовая кость</Vulpes.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  <Vulpes.corePart.parts.right_leg.parts.right_foot.customLabel>Правая нога</Vulpes.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <Vulpes.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>Правый мизинец палец ноги</Vulpes.corePart.parts.right_leg.parts.right_foot.parts.right_little_toe.customLabel>
+  <Vulpes.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>Правый безымянный палец ноги</Vulpes.corePart.parts.right_leg.parts.right_foot.parts.right_fourth_toe.customLabel>
+  <Vulpes.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>Правый средний палец ноги</Vulpes.corePart.parts.right_leg.parts.right_foot.parts.right_middle_toe.customLabel>
+  <Vulpes.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>Правый указательный палец ноги</Vulpes.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
+  <Vulpes.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>Правый большой палец ноги</Vulpes.corePart.parts.right_leg.parts.right_foot.parts.right_big_toe.customLabel>
+</LanguageData>

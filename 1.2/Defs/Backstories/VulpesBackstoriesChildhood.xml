@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+<AlienRace.BackstoryDef Abstract="True" Name="VulpesBackstoriesChildhoodBase">
+	<spawnCategories>
+		<li>VulpesBackstoriesChildhood</li>
+	</spawnCategories>
+	<slot>Childhood</slot>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesChildhoodBase">
+    <defName>VulpesBackstoryGigaFactory</defName>
+    <title>Giga Factory Child</title>
+    <titleShort>Handyman</titleShort>
+    <baseDescription>{PAWN_nameDef} was grown and raised at industrial gene-engineering complex like most Vulpians. {PAWN_pronoun} has spent an entire childhood being taught routine tasks, etiquette and how to please {PAWN_possessive} future owners.</baseDescription>
+	<chronoAgeRange>
+        <min>0</min>
+        <max>249</max>
+    </chronoAgeRange>
+	<skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Cooking</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesChildhoodBase">
+    <defName>VulpesBackstoryRegularChildhood</defName>
+    <title>Regular Childhood</title>
+    <titleShort>Vulpian</titleShort>
+    <baseDescription>{PAWN_nameDef} was adopted at very young age and has spent an entire childhood outside the walls of giga factory in {PAWN_possessive} owner's family...</baseDescription>
+	<chronoAgeRange>
+        <min>0</min>
+        <max>249</max>
+    </chronoAgeRange>
+	<skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+		<li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+		</li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesChildhoodBase">
+    <defName>VulpesBackstoryChildOfFreedom</defName>
+    <title>Child of Freedom</title>
+    <titleShort>Vulpian</titleShort>
+    <baseDescription>{PAWN_nameDef} was lucky enough to be raised by {PAWN_possessive} biological mother and father that managed to escape and to obtain their freedom.</baseDescription>
+	<chronoAgeRange>
+        <min>0</min>
+        <max>249</max>
+    </chronoAgeRange>
+	<skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+		<li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+		</li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesChildhoodBase">
+    <defName>VulpesBackstoryGenius</defName>
+    <title>Genius Child</title>
+    <titleShort>Genius</titleShort>
+    <baseDescription>{PAWN_nameDef} has passed a complex of standard intelligence tests with marvellous results. {PAWN_nameDef}'s intelligence abilities are well-known vulpian anomaly and is highly valued among glitterworld scientific communities and institutes. {PAWN_nameDef} got freedom after their test and was sent into educational complex together with other vulpian geniuses to study and to push technological progress.</baseDescription>
+	<linkedBackstory>VulpesBackstoryGlitterworldScientist</linkedBackstory>
+	<chronoAgeRange>
+        <min>0</min>
+        <max>249</max>
+    </chronoAgeRange>
+	<skillGains>
+		<li>
+        <defName>Intellectual</defName>
+        <amount>10</amount>
+		</li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="VulpesBackstoriesChildhoodBase">
+    <defName>VulpesBackstoryFirstBatch</defName>
+    <title>First Batch</title>
+    <titleShort>Handyman</titleShort>
+    <baseDescription>{PAWN_nameDef} was grown at the very first gene-engineering complex located at the Vulpian homeworld before it ascended into an Archotech planet. Scientists didn't know about the intelligence potential of Vulpians back then. As in result {PAWN_nameDef}`s mind is not affected either by destructive drugs or propaganda machine. Nobody knows how {PAWN_pronoun} managed to live out till today, but {PAWN_pronoun} is a relic of a vulpian and it's homeworld past, that's for sure.</baseDescription>
+	<chronoAgeRange>
+        <min>250</min>
+        <max>10000</max>
+    </chronoAgeRange>
+	<skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>5</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>5</amount>
+      </li>
+	  <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+</Defs>

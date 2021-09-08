@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VulpesBackstoryDomesticScientist.title>Крепостной Учёный</VulpesBackstoryDomesticScientist.title>
+  <VulpesBackstoryDomesticScientist.titleShort>Учёный</VulpesBackstoryDomesticScientist.titleShort>
+  <VulpesBackstoryDomesticScientist.baseDescription>Хозяин {PAWN_nameDef} был крайне образованным человеком. Желая подарить свою теплоту хоть кому-то, он обучал {PAWN_nameDef} различным наукам и вещам в своё свободное время.</VulpesBackstoryDomesticScientist.baseDescription>
+  <!---->
+  <VulpesBackstoryDomesticChef.title>Крепостной повар</VulpesBackstoryDomesticChef.title>
+  <VulpesBackstoryDomesticChef.titleShort>Повар</VulpesBackstoryDomesticChef.titleShort>
+  <VulpesBackstoryDomesticChef.baseDescription>{PAWN_nameDef} был(а) крепостным поваром. {PAWN_pronoun} овладел(а) искусством кулинарии в совершенстве и можеть сообразить изысканное блюдо из простейших ингредиентов в полевых условиях.</VulpesBackstoryDomesticChef.baseDescription>
+  <!---->
+  <VulpesBackstoryDomesticJade.title>Крепостная Бабочка</VulpesBackstoryDomesticJade.title>
+  <VulpesBackstoryDomesticJade.titleShort>Бабочка</VulpesBackstoryDomesticJade.titleShort>
+  <VulpesBackstoryDomesticJade.baseDescription>{PAWN_nameDef} использовался(ась) своими хозяевами в основном для любовных утех.</VulpesBackstoryDomesticJade.baseDescription>
+  <!---->
+  <VulpesBackstoryDomesticSinger.title>Крепостной Певец</VulpesBackstoryDomesticSinger.title>
+  <VulpesBackstoryDomesticSinger.titleShort>Певец</VulpesBackstoryDomesticSinger.titleShort>
+  <VulpesBackstoryDomesticSinger.baseDescription>{PAWN_nameDef} был(а) крепостным певцом для своего хозяина. Каждый вечер {PAWN_pronoun} радовал(а) своего хозяина чарующими песнями и мелодиями.</VulpesBackstoryDomesticSinger.baseDescription>
+  <!---->
+  <VulpesBackstoryGlitterworldStar.title>Звезда</VulpesBackstoryGlitterworldStar.title>
+  <VulpesBackstoryGlitterworldStar.titleShort>Звезда</VulpesBackstoryGlitterworldStar.titleShort>
+  <VulpesBackstoryGlitterworldStar.baseDescription>{PAWN_nameDef} обладала(а) огромной популярностью на одном из утопических миров. {PAWN_pronoun} зачастую выступал(а) на различных праздниках, фестивалях и концертах планетарного масштаба.</VulpesBackstoryGlitterworldStar.baseDescription>
+  <!---->
+  <VulpesBackstoryGlitterworldScientist.title>Ученый Вопреки</VulpesBackstoryGlitterworldScientist.title>
+  <VulpesBackstoryGlitterworldScientist.titleShort>Ученый</VulpesBackstoryGlitterworldScientist.titleShort>
+  <VulpesBackstoryGlitterworldScientist.baseDescription>Несмотря на тот факт что {PAWN_nameDef} является представителем крепостной расы, ему/ей удалось стать успешным деятелем науки. {PAWN_pronoun} обладает обширными знаниями и невероятной смекалкой, что позволяет ему/ей проводить лабораторные эксперименты буквально в полевых условиях при помощи говна и палок.</VulpesBackstoryGlitterworldScientist.baseDescription>
+  <!---->
+  <VulpesBackstoryRebel.title>Мятежник</VulpesBackstoryRebel.title>
+  <VulpesBackstoryRebel.titleShort>Мятежник</VulpesBackstoryRebel.titleShort>
+  <VulpesBackstoryRebel.baseDescription>{PAWN_nameDef} участвовал(а) в мятежах и протестах на далеком индустриальном мире. Ему/ей удалось сбежать.</VulpesBackstoryRebel.baseDescription>
+  <!---->
+  <VulpesBackstoryGigaFactory.title>Дитя Гига Фабрики</VulpesBackstoryGigaFactory.title>
+  <VulpesBackstoryGigaFactory.titleShort>Разнорабочий</VulpesBackstoryGigaFactory.titleShort>
+  <VulpesBackstoryGigaFactory.baseDescription>{PAWN_nameDef} как и большинство других Vulpes, вырос(ла) на гига фабрике. {PAWN_pronoun} провёл(а) всё своё детство, обучаясь рутиным задачам, этикету и тому как угождать своим будущим владельцам.</VulpesBackstoryGigaFactory.baseDescription>
+  <!---->
+  <VulpesBackstoryRegularChildhood.title>Обычное Детство</VulpesBackstoryRegularChildhood.title>
+  <VulpesBackstoryRegularChildhood.titleShort>Vulpes</VulpesBackstoryRegularChildhood.titleShort>
+  <VulpesBackstoryRegularChildhood.baseDescription>{PAWN_nameDef} был(а) достаточно везучим(ей) чтобы обрести хозяев в столь малом возрасте. {PAWN_nameDef} провел(а) все свое детство в семье хозяев.</VulpesBackstoryRegularChildhood.baseDescription>
+  <!---->
+  <VulpesBackstoryGenius.title>Гениальный Ребёнок</VulpesBackstoryGenius.title>
+  <VulpesBackstoryGenius.titleShort>Гений</VulpesBackstoryGenius.titleShort>
+  <VulpesBackstoryGenius.baseDescription>{PAWN_nameDef} прошел комплекс стандартных интеллектуальных тестов с потрясающими результатами. Высокие интеллектуальные способности являются весьма распространённой аномалией среди Vulpes. Vulpes с данной аномалией весьма высоко ценятся в научных сообществах и институтах утопичных высокоразвитых миров. {PAWN_nameDef} получил(а) полную свободу после теста и был(а) отправлен(а) в образовательное учреждение с такими же как и он(а) для обучения и дальнейшего продвижения научно-технического прогресса. </VulpesBackstoryGenius.baseDescription>
+  <!---->
+  <VulpesBackstoryBestFriend.title>Лучший Друг</VulpesBackstoryBestFriend.title>
+  <VulpesBackstoryBestFriend.titleShort>Социум</VulpesBackstoryBestFriend.titleShort>
+  <VulpesBackstoryBestFriend.baseDescription>{PAWN_nameDef} был(а) лучшим другом для своего хозяина. {PAWN_pronoun} был(а) единственным что радовало [PAWN_possessive] хозяина, его отдушиной.</VulpesBackstoryBestFriend.baseDescription>
+  <!---->
+  <VulpesBackstoryChildOfFreedom.title>Свободное дитя</VulpesBackstoryChildOfFreedom.title>
+  <VulpesBackstoryChildOfFreedom.titleShort>Беженец</VulpesBackstoryChildOfFreedom.titleShort>
+  <VulpesBackstoryChildOfFreedom.baseDescription>{PAWN_nameDef} повезло провести всё своё детство со своими биологическими родителями, что в прошлом сбежали и обрели свободу.</VulpesBackstoryChildOfFreedom.baseDescription>
+  <!---->
+  <VulpesBackstoryFirstBatch.title>Первая Партия</VulpesBackstoryFirstBatch.title>
+  <VulpesBackstoryFirstBatch.titleShort>Разнорабочий</VulpesBackstoryFirstBatch.titleShort>
+  <VulpesBackstoryFirstBatch.baseDescription>{PAWN_nameDef} является представителем самого первого поколения Vulpes. Первое поколение было выращено буквально из пробирки ещё на самой первой гига фабрике на одном из утопических миров, до того как тот возвысился в архотек. Тогда ещё никто не знал о том что Vulpes обладают такими высокими когнитивными способностями. Вследствие чего {PAWN_nameDef} не был(а) подвержен(а) действию разрушительных психических наркотиков и пропаганды. Одному черту известно как {PAWN_nameDef} дожил(а) до сегодняшнего дня. Ясно лишь одно. Он(а) является настоящей реликвией прошлого.</VulpesBackstoryFirstBatch.baseDescription>
+  <!---->
+  <VulpesBackstoryApathetic.title>Апатичный</VulpesBackstoryApathetic.title>
+  <VulpesBackstoryApathetic.titleShort>Vulpes</VulpesBackstoryApathetic.titleShort>
+  <VulpesBackstoryApathetic.baseDescription>{PAWN_nameDef} не любит много разговаривать. Порой даже неделями. Никто не знает почему. {PAWN_nameDef} предпочитает проводить всё свое свободное время с животными.</VulpesBackstoryApathetic.baseDescription>
+  <!---->
+  <VulpesBackstoryBookWorm.title>Книжный Червь</VulpesBackstoryBookWorm.title>
+  <VulpesBackstoryBookWorm.titleShort>Всезнайка</VulpesBackstoryBookWorm.titleShort>
+  <VulpesBackstoryBookWorm.baseDescription>{PAWN_nameDef} крайне любознателен(льна). [PAWN_possessive] хозяин имел огромную библиотеку со всевозможными книгами и цифровыми архивами. {PAWN_pronoun} тайком пробирался(ась) в библиотеку каждую ночь, и восполнял(а) свою жажду знаний в кромешной тьме в тайне ото всех...</VulpesBackstoryBookWorm.baseDescription>
+  <!---->
+  <VulpesBackstoryDomesticBartender.title>Крепостной Бармен</VulpesBackstoryDomesticBartender.title>
+  <VulpesBackstoryDomesticBartender.titleShort>Повар</VulpesBackstoryDomesticBartender.titleShort>
+  <VulpesBackstoryDomesticBartender.baseDescription>{PAWN_nameDef} был(а) крепостным барменом в прошлом. {PAWN_nameDef} знает толк в хорошем пойле и простой кулинарии. Ну и как откачать полумертвого безумца, выпившего чистый этанол... </VulpesBackstoryDomesticBartender.baseDescription>
+  <!---->
+  <VulpesBackstoryDomesticGardener.title>Крепостной Садовод</VulpesBackstoryDomesticGardener.title>
+  <VulpesBackstoryDomesticGardener.titleShort>Садовод</VulpesBackstoryDomesticGardener.titleShort>
+  <VulpesBackstoryDomesticGardener.baseDescription>{PAWN_nameDef} знает толк в растениях. Конечно, как тут не знать толк за годы принудительного садоводства...</VulpesBackstoryDomesticGardener.baseDescription>
+  <!---->
+  <VulpesBackstoryGunMerchant.title>Торговец оружием</VulpesBackstoryGunMerchant.title>
+  <VulpesBackstoryGunMerchant.titleShort>Стрелок</VulpesBackstoryGunMerchant.titleShort>
+  <VulpesBackstoryGunMerchant.baseDescription>{PAWN_nameDef} был(а) успешным торговцем оружием в прошлом. {PAWN_nameDef} знает всё о больших пушках и о том как из них стрелять)</VulpesBackstoryGunMerchant.baseDescription>
+  <!---->
+  <VulpesBackstoryRimworlder.title>Коренной Житель</VulpesBackstoryRimworlder.title>
+  <VulpesBackstoryRimworlder.titleShort>Житель</VulpesBackstoryRimworlder.titleShort>
+  <VulpesBackstoryRimworlder.baseDescription>{PAWN_nameDef} провёл всю свою жизнь в условиях суровой и недружелюбной планеты. Он(а) обладает некоторыми навыками выживания в недружелюных и экстремальных условиях.</VulpesBackstoryRimworlder.baseDescription>
+  <!---->
+</LanguageData>
