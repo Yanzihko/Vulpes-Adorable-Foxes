@@ -1,1 +1,1 @@
-An official repository of a mod "Vulpes - Adorable Foxes" made by yanzihko. Read the LICENSE file for more details. If for some reason you can't get this mod from steam workshop, you can download zip file here.
+An official repository of a mod "Vulpes - Adorable Foxes" made by yanzihko. Read the LICENSE file for more details. If for some reason you can't get this mod from steam workshop, you can download zip file here in releases.
